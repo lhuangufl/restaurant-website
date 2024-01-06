@@ -46,7 +46,7 @@
 
 .section-intro header {
     display: flex;
-    flex: 4;
+    flex: 1;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -54,6 +54,8 @@
 
 .link-to-book-wrapper {
     flex: 1;
+    font-size: 30px;
+    margin-top: 30px;
 }
 
 .about-section {
@@ -74,6 +76,13 @@ a.link-to-book:hover {
     background-color: #ffffff;
     color: #95999e;
     text-decoration: none;
+}
+
+.phone-number a {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
 }
 
 .about-section p,
@@ -130,6 +139,17 @@ a.link-to-book:hover {
 .opening-time p span,
 .contact-adress p span {
     display: block;
+}
+
+.phone-number h1 {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 38px; /* 字体大小 */
+  font-weight: bold; /* 字体加粗 */
+  color: #f6f1f1; /* 字体颜色，您可以根据需要进行更改 */
+  text-decoration: none; /* 移除下划线 */
+  font-family: Arial, sans-serif; /* 字体家族 */
+  line-height: 1.4; /* 行高 */
 }
 
 @media (min-width:577px) and (max-width: 800px) {
